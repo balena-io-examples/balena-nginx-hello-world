@@ -1,0 +1,6 @@
+version: '2'
+services:
+  frontend:
+    build: ./frontend
+    ports:
+      - "80:80"
